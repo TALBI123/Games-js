@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <h3>QUIZ GAME</h3>
+    <div class="start grid ">STRAT</div>
+    <div class="choice pos_center disabled">
+      <h2>choose number of questions</h2>
+      <div class="numbers">
+        <div class="num grid" style="--clr: #3eaef4">5</div>
+        <div class="num grid" style="--clr: #498feb">10</div>
+        <div class="num grid" style="--clr: #376bf9">15</div>
+        <div class="num grid" style="--clr: #1a55f8">20</div>
+        <div class="num grid" style="--clr: blueviolet">30</div>
+      </div>
+    </div>
+    <div class="container-topics pos_center disabled">
+      <h2>choose category of questions</h2>
+      <div class="categorys">
+        <div
+          class="category grid"
+          style="--clr: linear-gradient(to right, #00c6ff, #0072ff)"
+        ></div>
+        <div
+          class="category grid"
+          style="--clr: linear-gradient(to right, #f46b45, #eea849)"
+        ></div>
+        <div
+          class="category grid"
+          style="--clr: linear-gradient(to right, #ff512f, #dd2476)"
+        ></div>
+        <div
+          class="category grid"
+          style="--clr: linear-gradient(to right, #1d976c, #93f9b9)"
+        ></div>
+        <div
+          class="category grid"
+          style="--clr: linear-gradient(to right, #fc00ff, #00dbde)"
+        ></div>
+      </div>
+    </div>
+    <div class="difficulty pos_center disabled">
+      <h2>choose the difficulty</h2>
+      <div class="choise-diff">
+        <div
+          class="diff grid"
+          style="--clr: linear-gradient(to right, #00c6ff, #0072ff)"
+        >
+          easy
+        </div>
+        <div
+          class="diff grid"
+          style="--clr: linear-gradient(to right, #fc00ff, #00dbde)"
+        >
+          medium
+        </div>
+        <div
+          class="diff grid"
+          style="--clr: linear-gradient(to right, #ff512f, #dd2476)"
+        >
+          hard
+        </div>
+      </div>
+    </div>
+    <div class="container-times pos_center disabled">
+      <h2>choose time per questions</h2>
+      <div class="times">
+        <div
+          class="grid"
+          style="--clr: linear-gradient(to right, #00c6ff, #0072ff)"
+        >
+          5s
+        </div>
+        <div
+          class="grid"
+          style="--clr: linear-gradient(to right, #f46b45, #eea849)"
+        >
+          10s
+        </div>
+        <div
+          class="grid"
+          style="--clr: linear-gradient(to right, #ff512f, #dd2476)"
+        >
+          15s
+        </div>
+        <div
+          class="grid"
+          style="--clr: linear-gradient(to right, #1d976c, #93f9b9)"
+        >
+          20s
+        </div>
+        <div
+          class="grid"
+          style="--clr: linear-gradient(to right, #fc00ff, #00dbde)"
+        >
+          25s
+        </div>
+      </div>
+    </div>
+    <div class="panel-game grid pos_center disabled">
+      <div class="content">
+        <div class="time grid">
+          <span class="number-time"></span>
+          <div class="progress-bar"></div>
+        </div>
+        <div class="num-questions">
+          <div class="text">question</div>
+          <span class="num">1</span>
+          <span>/</span>
+          <span class="num-of-question">20</span>
+        </div>
+        <div class="question">what is your animals favorite</div>
+        <div class="answers">
+          <div class="container-answer">
+            <div class="content-answer">
+              <div class="answer">lion</div>
+              <div class="btn grid"><i class="fa-solid fa-check"></i></div>
+            </div>
+          </div>
+          <div class="container-answer">
+            <div class="content-answer">
+              <div class="answer">panda</div>
+              <div class="btn grid"><i class="fa-solid fa-check"></i></div>
+            </div>
+          </div>
+          <div class="container-answer">
+            <div class="content-answer">
+              <div class="answer">cat</div>
+              <div class="btn grid"><i class="fa-solid fa-check"></i></div>
+            </div>
+          </div>
+          <div class="container-answer">
+            <div class="content-answer">
+              <div class="answer">cat</div>
+              <div class="btn grid"><i class="fa-solid fa-check"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="next grid">next</div>
+      </div>
+    </div>
+    <div class="score pos_center disabled">
+      <div class="result">result</div>
+      <div class="your-score">
+        <div class="text">your score :</div>
+        <div class="container-score">
+          <div class="num-answers"></div>
+          <div class="back-slash">/</div>
+          <div class="num-quetsion"></div>
+        </div>
+      </div>
+      <div class="btn-restart grid">restart</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
